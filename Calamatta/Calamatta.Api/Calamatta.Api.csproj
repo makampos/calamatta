@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Calamatta.Application\Calamatta.Application.csproj" />
+      <ProjectReference Include="..\Calamatta.Domain\Calamatta.Domain.csproj" />
+      <ProjectReference Include="..\Calamatta.Infrastructure\Calamatta.Infrastructure.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+    </ItemGroup>
+
+
+</Project>
